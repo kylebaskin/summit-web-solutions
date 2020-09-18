@@ -1,2 +1,7 @@
 /*Stylesheet for Summit Web Solutions
 Copyright @ kylebaskin.com*/
+
+.some_title{
+  display: flex;
+  justify-content: center;
+}
