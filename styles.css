@@ -1,8 +1,102 @@
 /*Stylesheet for Summit Web Solutions
 Copyright @ kylebaskin.com*/
 
-.some_title{
+@font-face {
+  font-family: 'Kumbh Sans Light';
+  src: url('fonts/KumbhSans-Light.ttf');
+}
+@font-face {
+  font-family: 'Kumbh Sans Regular';
+  src: url('fonts/KumbhSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Kumbh Sans Bold';
+  src: url('fonts/KumbhSans-Bold.ttf');
+}
+
+p {
+  font-family: 'Kumbh Sans Regular';
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Kumbh Sans Bold';
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+}
+
+body{
+  background: linear-gradient(to bottom, #23757d 40px, #329ea8 260px, transparent 180px) no-repeat, url('images/background_swirl.png') no-repeat 80% 27vh / 110vw 60vw;
+  font-family: 'Kumbh Sans Regular';
+  letter-spacing: 1.4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav{
   display: flex;
-  justify-content: center;
-  color: blue;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-nav-burger {
+  background: url('images/icons/burger_menu.png') no-repeat;
+  background-size: contain;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+.logo{
+  width: 150px;
+  height: auto;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.intro{
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.in-color{
+  color: white;
+}
+.intro-title{
+  max-width: 400px;
+}
+.intro-description{
+  max-width: 300px;
 }

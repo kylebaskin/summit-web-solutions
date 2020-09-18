@@ -3,17 +3,37 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Summit Web Solutions</title>
+    <meta name="description" content="We build fast, mobile-first websites for small businesses.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="summit-script.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
-      <h1 class="some_title">Summit Web Solutions</h1>
+      <div class="nav">
+        <picture>
+          <img class="logo" src="images/logo_white.png" alt="Summit Web Solutions">
+        </picture>
+        <button class="mobile-nav-burger" type="button" name="Menu" onclick="openNav()"></button>
+      </div>
     </header>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </div>
     <section>
-      <p>Powered by Kyle Baskin.</p>
+      <div class="intro">
+        <h1 class="in-color intro-title">Small Business Web Development + Management</h1>
+        <p class="in-color intro-description">Fast, mobile-first, responsive websites. Superior custom-built sites, starting at $0 down, $100/mo. </p>
+      </div>
+
+
     </section>
     <footer>
-      <h2>Biznis, boboddy.</h2>
+      <h2></h2>
     </footer>
   </body>
 </html>
