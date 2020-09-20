@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-  background: linear-gradient(to bottom, #23757d 40px, #329ea8 290px, transparent 180px) no-repeat, url('images/background_swirl.png') no-repeat 80% 281px / 110vw 60vw;
+  background: linear-gradient(to bottom, #23757d 40px, #329ea8 390px, transparent 180px) no-repeat, url('images/background_swirl.png') no-repeat 80% 381px / 110vw 60vw;
   font-family: 'Kumbh Sans Regular';
   letter-spacing: 1.4px;
   padding-left: 20px;
@@ -100,4 +100,20 @@ body{
 }
 .intro-description{
   max-width: 300px;
+}
+.btn{
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: 'Kumbh Sans Bold';
+  font-size: 17px;
+  letter-spacing: 1.4px;
+}
+.intro-button{
+  background-color: white;
+}
+.hero-img{
+  padding-top: 20px;
+  width: 425px;
+  height: auto;
 }
