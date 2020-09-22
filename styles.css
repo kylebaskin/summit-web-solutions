@@ -108,9 +108,12 @@ body{
   font-family: 'Kumbh Sans Bold';
   font-size: 17px;
   letter-spacing: 1.4px;
+  background-color: #329ea8;
+  color: white;
 }
 .intro-button{
   background-color: white;
+  color: black;
 }
 .intro-button-and-pic{
   display: flex;
@@ -122,9 +125,15 @@ body{
   width: 375px;
   height: auto;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
   .hero-img{
     width: 300px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 340px) {
+  .hero-img{
+    width: 250px;
     height: auto;
   }
 }
@@ -134,8 +143,62 @@ body{
 .container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .heading{
   text-transform: uppercase;
+}
+.icon{
+  width: 175px;
+}
+.description{
+  text-align: center;
+}
+.differentiators-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 125px;
+}
+.differentiator{
+  text-align: center;
+}
+.heading2{
+  font-size: 22px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 30px;
+  max-width: 300px;
+  color: #329ea8;
+}
+.sub-icon{
+  padding-bottom: 20px;
+}
+.dif-description{
+  padding-bottom: 60px;
+}
+.pricing-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-pic{
+  width: 300px;
+  height: auto;
+}
+@media screen and (max-width: 420px) {
+  .pricing-pic{
+    width: 250px;
+    height: auto;
+  }
+}
+.pricing-heading{
 
+}
+h1 span{
+  color: #329ea8;
 }
