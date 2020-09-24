@@ -12,10 +12,18 @@
     <!-- Credit to www.oakharborwebdesigns.com for the design inspiration -->
     <header>
       <div class="nav">
-        <picture>
-          <img class="logo" src="images/logo_white.png" alt="Summit Web Solutions">
-        </picture>
+        <a href="https://www.summitwebsolutions.com">
+          <picture>
+            <img class="logo" src="images/logo_white.png" alt="Summit Web Solutions">
+          </picture>
+        </a>
         <button class="mobile-nav-burger" type="button" name="Menu" onclick="openNav()"></button>
+        <div class="desktop-nav">
+          <a class="desktop-link" href="#">Home</a>
+          <a class="desktop-link" href="#">About</a>
+          <a class="desktop-link" href="#portfolio">Portfolio</a>
+          <a class="desktop-link" href="#">Contact</a>
+        </div>
       </div>
     </header>
     <div id="mySidenav" class="sidenav">
@@ -28,7 +36,7 @@
     <section name="intro">
       <div class="intro">
         <h1 class="in-color intro-title">Small Business Web Development + Management</h1>
-        <p class="in-color intro-description">Fast, mobile-first, responsive websites. Superior custom-built sites, starting at $0 down, $200/mo. </p>
+        <p class="in-color intro-description">Fast, mobile-first, responsive websites. Superior custom-built sites, starting at $0 down, $200/mo.</p>
       </div>
       <div class="intro-button-and-pic">
         <button class="btn intro-button" type="button" name="button">Contact us</button>
@@ -43,7 +51,7 @@
           <img class="icon" src="images/icons/what_we_do_icon.png" alt="Small Business Web Development">
         </picture>
         <h1 class="heading">What We Do</h1>
-        <p class="description">We specialize in website devlopment, design, and management for small businesses.
+        <p class="description what-we-do-description">We specialize in website development, design, and management for small businesses.
         Our experts are trained to create & maintain intuitive, custom sites, designed to
       attract customers and bring more revenue to your business.</p>
       <button class="btn" type="button" name="button">Learn more</button>
@@ -63,18 +71,17 @@
             <img class="icon sub-icon"src="images/icons/speed_icon.png" alt="Speedy Site">
           </picture>
           <h2 class="heading2">Lightning Fast</h2>
-          <p class="dif-description">Over 60% of web traffic comes from mobile. To ensure your users have the best
-           experience, we build our sites mobile-first, and then optimize for other screens,
-          like tablets and desktops.</p>
+          <p class="dif-description">79% of users who have trouble with website performance say they won’t return to the site again.
+           Don't be one of those sites. We optimize every piece of our client's sites to ensure they load in the blink of an eye.</p>
         </div>
         <div class="differentiator">
           <picture>
             <img class="icon sub-icon"src="images/icons/seo_icon.png" alt="SEO">
           </picture>
           <h2 class="heading2">Search Engine Optimized</h2>
-          <p class="dif-description">Over 60% of web traffic comes from mobile. To ensure your users have the best
-           experience, we build our sites mobile-first, and then optimize for other screens,
-          like tablets and desktops.</p>
+          <p class="dif-description">We understand how important search rankings are for your business,
+            so we build our sites with SEO at the forefront. The more organic users you attract, the better
+           your business can do.</p>
         </div>
       </div>
     </section>
@@ -134,14 +141,14 @@
               <img class="kse-icon" src="images/icons/kse_eng_icon.png" alt="Our Portfolio">
             </picture>
             <p>Structrual engineering & architectural services for residential construction.</p>
-            <button class="btn portfolio-btn" type="button" name="button" onclick="https://www.kse-eng.com">Visit</button>
+            <button class="btn portfolio-btn" type="button" name="button" onclick="window.location.href='https://www.kse-eng.com';">Visit</button>
           </div>
           <div class="portfolio-item">
             <picture>
               <img class="portfolio-icon cp-icon" src="images/icons/CP_Logo_Cover.png" alt="Our Portfolio">
             </picture>
-            <p>Structrual engineering & architectural services for residential construction.</p>
-            <button class="btn portfolio-btn" type="button" name="button" onclick="https://www.collegepods.com">Visit</button>
+            <p>Online retailer selling custom earphones to college fans.</p>
+            <button class="btn portfolio-btn" type="button" name="button" onclick="window.location.href='https://www.collegepods.com';">Visit</button>
           </div>
         </div>
       </div>
@@ -152,11 +159,54 @@
           <img class="about-icon" src="images/icons/about_icon.png" alt="About Us Icon">
         </picture>
         <h1 class="heading">Who We Are</h1>
-        <p>Summit Web Solutions is a subscription-based </p>
+        <p class="about-description">Summit Web Solutions is a subscription-based web services company comprised of
+        expert developers, designers, and people. We're committed to serving our clients to the best of our
+      abilities and are built on the philosophy that the best way to succeed is to deliver an outstanding product
+      and excellent customer service. Your success is our success.</p>
+      <button class="btn" type="button" name="button" onclick="window.location.href='https://www.summitwebsolutions.com/about';">Learn more</button>
+      </div>
+    </section>
+    <section class="plans">
+      <div class="plans-container">
+        <div class="plan">
+          <p class="plan-title">Standard</p>
+          <p class="price">$200<span>/mo</span></p>
+          <p class="li">Unlimited edits</p>
+          <p class="li">Free site redesign</p>
+          <p class="li">Analytics tracking</p>
+          <p class="li">24/7 customer support</p>
+          <button class="btn plan-btn" type="button" name="button" onclick="window.location.href='https://www.summitwebsolutions.com/contact';">Contact us</button>
+        </div>
+        <div class="plan">
+          <p class="plan-title">Ecommerce</p>
+          <p class="price">$300<span>/mo</span></p>
+          <p class="li">All standard features</p>
+          <p class="li">Inventory management</p>
+          <p class="li">Ecommerce tracking</p>
+          <p class="li">Data management</p>
+          <button class="btn plan-btn" type="button" name="button" onclick="window.location.href='https://www.summitwebsolutions.com/contact';">Contact us</button>
+        </div>
       </div>
     </section>
     <footer>
-      <h2></h2>
+      <div class="footer-container">
+        <div class="footer-contact-logo">
+          <a href="https://www.summitwebsolutions.com">
+            <picture>
+              <img class="logo-footer" src="images/logo_white.png" alt="Summit Web Solutions">
+            </picture>
+          </a>
+          <p class="footer-contact">info@summitwebsolutions.com</p>
+          <p class="footer-contact">(267) 452-0056</p>
+        </div>
+        <div class="footer-nav">
+          <a class="f-nav" href="#">Home</a>
+          <a class="f-nav" href="#">About</a>
+          <a class="f-nav" href="#portfolio">Portfolio</a>
+          <a class="f-nav" href="#">Contact</a>
+        </div>
+      </div>
+      <p class="copyright">Copyright &#169; Summit Web Solutions</p>
     </footer>
   </body>
 </html>
