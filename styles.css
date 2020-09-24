@@ -13,7 +13,9 @@ Copyright @ kylebaskin.com*/
   font-family: 'Kumbh Sans Bold';
   src: url('fonts/KumbhSans-Bold.ttf');
 }
-
+html{
+  scroll-behavior: smooth;
+}
 p {
   font-family: 'Kumbh Sans Regular';
   font-size: 17px;
@@ -25,6 +27,9 @@ h1, h2, h3, h4, h5 {
   font-size: 25px;
   line-height: 1.2;
   letter-spacing: 1.4px;
+}
+button{
+  cursor: pointer;
 }
 
 body{
@@ -245,6 +250,7 @@ h1 span{
   max-width: 225px;
   text-align: center;
   margin-bottom: 45px;
+  box-shadow: 0 10px 30px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
 }
 .portfolio-icon{
   width: 150px;
@@ -259,4 +265,11 @@ h1 span{
 }
 .portfolio-btn{
   text-align: center;
+}
+.who-we-are{
+  padding-top: 75px;
+}
+.about-icon{
+  width: 150px;
+  height: auto;
 }
