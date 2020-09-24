@@ -256,18 +256,31 @@ body{
 }
 @media screen and (min-width: 1100px) {
   .hero-img{
-    width: 900px;
+    width: 800px;
     height: auto;
     margin-top: -160px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1232px) {
   .intro-description{
     max-width: 500px;
+  }
+  .hero-img{
+    width: 850px;
+    height: auto;
+    margin-top: -250px;
+  }
+  .intro{
+    margin-top: 75px;
   }
 }
 .what-we-do{
   padding-top: 125px;
+}
+@media screen and (min-width: 1000px) {
+  .what-we-do{
+    padding-top: 0px;
+  }
 }
 .container{
   display: flex;
