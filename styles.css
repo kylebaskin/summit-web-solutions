@@ -520,3 +520,82 @@ h1 span{
   margin-top: 25px;
   margin-bottom: 45px;
 }
+
+/*---------- About page ------------*/
+
+.about-intro-title{
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.about-intro-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-intro-img{
+  width: 320px;
+  height: auto;
+}
+.centered{
+  text-align: center;
+}
+.why-so-expensive{
+  padding-top: 50px;
+}
+.expensive-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.expensive-reason{
+  text-align: center;
+  padding-top: 25px;
+  max-width: 335px;
+}
+.reason-icon{
+  width: 75px;
+  height: auto;
+}
+.reason-icon-alt{
+  width: 50px;
+  height: auto;
+}
+.reason-header{
+  color: #329ea8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.reason-description{
+  margin-top: 5px;
+}
+.our-solutions{
+  padding-top: 75px;
+}
+.solutions-graphic{
+  width: 320px;
+  height: auto;
+  padding-bottom: 25px;
+}
+.solve-heading{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.solve-heading::before{
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 27px;
+  background-image: url('images/icons/check_icon.png');
+  background-size: 35px 27px;
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
+.solve-description{
+  margin-top: 5px;
+  padding-left: 47px;
+}
