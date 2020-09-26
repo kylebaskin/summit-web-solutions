@@ -68,6 +68,7 @@ body{
 .footer-nav{
   display: block;
   text-align: right;
+  margin-bottom: -25px;
 }
 .f-nav{
   display: block;
@@ -530,6 +531,11 @@ h1 span{
   letter-spacing: 8px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 390px) {
+  .about-intro-title{
+    font-size: 30px;
+  }
+}
 .about-intro-container{
   display: flex;
   flex-direction: column;
@@ -539,6 +545,20 @@ h1 span{
 .about-intro-img{
   width: 320px;
   height: auto;
+}
+.about-intro-description{
+  max-width: 600px;
+}
+@media screen and (min-width: 850px) {
+  .about-intro-container{
+    flex-direction: row;
+    padding-top: 75px;
+    justify-content: space-around;
+  }
+  .about-intro-img{
+    width: 500px;
+    height: auto;
+  }
 }
 .centered{
   text-align: center;
@@ -551,6 +571,12 @@ h1 span{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (min-width: 850px) {
+  .expensive-container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .expensive-reason{
   text-align: center;
@@ -576,10 +602,26 @@ h1 span{
 .our-solutions{
   padding-top: 75px;
 }
+.solutions-img-container{
+  text-align: center;
+}
 .solutions-graphic{
   width: 320px;
   height: auto;
   padding-bottom: 25px;
+  text-align: center;
+}
+.solve-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .solve-container{
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 .solve-heading{
   font-size: 20px;
@@ -598,4 +640,36 @@ h1 span{
 .solve-description{
   margin-top: 5px;
   padding-left: 47px;
+}
+.solve{
+  max-width: 425px;
+}
+.our-founder{
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.founder-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 800px) {
+  .founder-container{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.founder-headshot{
+  width: 300px;
+  height: auto;
+}
+.img-text{
+  text-align: center;
+  color: gray;
+  margin: 0;
+}
+.founder-text{
+  text-align: center;
+  max-width: 600px;
 }
