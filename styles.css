@@ -682,3 +682,12 @@ h1 span{
   justify-content: center;
   align-items: center;
 }
+.message-box{
+  width: 400px;
+  height: 100px;
+}
+.form{
+  border: solid #e3e5e6 2px;
+  border-radius: 5px;
+  padding: 20px;
+}
