@@ -16,7 +16,7 @@ Copyright @ kylebaskin.com*/
 html{
   scroll-behavior: smooth;
 }
-p {
+p, input, textarea {
   font-family: 'Kumbh Sans Regular';
   font-size: 17px;
   line-height: 1.5;
@@ -682,6 +682,9 @@ h1 span{
   justify-content: center;
   align-items: center;
 }
+.contact-welcome{
+  text-align: center;
+}
 .message-box{
   width: 400px;
   height: 100px;
@@ -690,4 +693,36 @@ h1 span{
   border: solid #e3e5e6 2px;
   border-radius: 5px;
   padding: 20px;
+}
+input, textarea{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 250px;
+}
+textarea{
+  height: 200px;
+}
+.form-btn{
+  display: block;
+  margin: auto auto;
+}
+.contact-words{
+  max-width: 575px;
+}
+.contact-img{
+  width: 300px;
+  height: auto;
+}
+@media screen and (min-width: 1000px) {
+  .contact-container{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  input, textarea{
+    width: 400px;
+  }
+  textarea{
+    height: 300px;
+  }
 }
