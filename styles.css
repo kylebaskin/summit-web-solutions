@@ -422,6 +422,7 @@ h1 span{
   margin-left: 25px;
   margin-right: 25px;
   max-height: 260px;
+  height: 260px;
 }
 .portfolio-icon{
   width: 150px;
@@ -470,6 +471,7 @@ h1 span{
   max-width: 400px;
   margin-left: 25px;
   margin-right: 25px;
+  background-color: white;
 }
 .plan-title{
   font-size: 15px;
@@ -531,7 +533,7 @@ h1 span{
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
   .about-intro-title{
     font-size: 30px;
   }
@@ -727,3 +729,6 @@ textarea{
     height: 300px;
   }
 }
+
+
+/* ------------ Plans Page --------------*/
