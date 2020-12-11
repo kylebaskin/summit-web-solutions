@@ -433,7 +433,9 @@ h1 span{
   text-align: center;
 }
 .cp-icon{
-  width: 75px;
+  width: 85px;
+  margin-top: -20px;
+  margin-bottom: -10px;
 }
 .portfolio-btn{
   text-align: center;
