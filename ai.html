@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>About</title>
     <meta name="twitter:" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="summit-script.js" charset="utf-8"></script>
@@ -50,29 +50,69 @@
       <a href="https://www.summitwebsolutions.com/contact">Contact</a>
       <a href="https://www.summitwebsolutions.com/blog">Blog</a>
     </div>
-    <section class="contact-intro">
-      <h1 class="about-intro-title">Contact Us</h1>
-    </section>
-    <section class="contact-form">
-      <div class="contact-container">
-        <div class="contact-welcome">
+    <section class=about-intro>
+      <h1 class="about-intro-title">Our AI</h1>
+      <div class="about-intro-container">
+        <div class="about-intro-img-container">
           <picture>
-            <img class="contact-img" src="images/contact_img.png" alt="Contact Image">
+            <img class="about-intro-img" src="images/anton-page-hero.png" alt="Anton Bot">
           </picture>
-          <h2 class="centered contact-words">Drop us a line with any inquiries, questions, or concerns.</h2>
-          <p class="centered contact-words">Someone from our team will get back to you within one business day.</p>
         </div>
-        <div class="contact-form">
-          <form
-            action="https://formspree.io/moqpvdrd"
-            method="POST"
-            class="form">
-            <input type="text" name="name" placeholder="Name">
-            <input type="text" name="_replyto" placeholder="Email">
-            <textarea name="message" placeholder="Enter your message here"></textarea>
-            <button class="btn form-btn"type="submit">Send</button>
-          </form>
+        <div class="anton-intro-description">
+          <h2>Welcome to the future of blogging.</h2>
+          <p>ANTON, our smartest employee, uses machine learning to master any subject and write a search engine
+          optimized blog post about that subject.</p>
+          <button class="btn" type="button" name="button" href="https://www.summitwebsolutions.com/#anton-pricing">See Pricing</button>
         </div>
+      </div>
+    </section>
+    <section class="how-anton-works">
+      <img class="about-intro-img" src="images/typewriter.png" alt="Typewriter">
+      <div class="anton-steps">
+        <h2>Here's how it works:</h2>
+        <p>1. Send us the topic of your desired article</p>
+        <p>2. Include the approximate word count</p>
+        <p>3. Wait a day or so, and we'll email you your article written by ANTON</p>
+        <p>4. If you don't like it, keep the article and get your money back.</p>
+        <button href="https://www.summitwebsolutions.com/blog/what-to-know-before-hiring-a-web-developer.html" class="btn" type="button" name="button">See Example</button>
+      </div>
+    </section>
+    <section name="#anton-price" class="anton-pricing">
+      <div class="anton-pricing-card">
+        <h2 class="anton-price-point">$15</h2>
+        <p class="per-article">per article</p>
+        <ul class="pricing-list">
+          <li>Up to 2,500 words</li>
+          <li>Blog post can be about anything</li>
+          <li>Money-back guarantee</li>
+          <li>One time payment</li>
+          <li>No hidden fees</li>
+          <li>1-2 day wait time</li>
+        </ul>
+      </div>
+      <div class="anton-form">
+        <h2>Submit an article request</h2>
+        <form
+          action="https://formspree.io/f/xrgojbqg"
+          method="POST"
+        >
+          <label>
+            Email:
+            <input type="text" name="_replyto">
+          </label>
+          <label>
+            Subject of Article:
+            <input type="text" name="subject"></input>
+          </label>
+          <label>
+            Word Count:
+            <input type="number" name="words"></input>
+          </label>
+
+          <!-- your other form fields go here -->
+
+          <button class="btn" type="submit">Send</button>
+        </form>
       </div>
     </section>
     <footer>

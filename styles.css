@@ -190,6 +190,30 @@ body{
 .intro-description{
   max-width: 300px;
 }
+.anton-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.anton-hero-home{
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+.anton-text{
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .anton-content{
+    flex-direction: row;
+  }
+  .anton-text{
+    padding-left: 50px;
+    max-width: 400px;
+  }
+}
 .btn{
   border: solid 2px transparent;
   border-radius: 5px;
@@ -748,4 +772,167 @@ textarea{
 }
 .not-sure-title{
   padding-top: 45px;
+}
+
+/* ----------------- Portfolio Page -------------- */
+
+.portfolio-hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio-hero-img{
+  width: 300px;
+  height: auto;
+}
+@media screen and (min-width: 1000px) {
+  .portfolio-hero-container{
+    flex-direction: row;
+  }
+  .portfolio-hero-img{
+    width: 500px;
+    height: auto;
+  }
+}
+
+/* --------------- Blog Index -----------------*/
+.blog-posts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.blog-card{
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(50,50,93,.25);
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  transition: all 0.5s;
+}
+.blog-card:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.blog-title{
+  text-align: center;
+  border-bottom: solid 2px lightgray;
+  width: 275px;
+  padding-bottom: 15px;
+}
+.blog-title-img{
+  width: 275px;
+  height: auto;
+}
+.blog-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+.post-detail{
+  color: lightgray;
+  font-size: 14px;
+}
+.blog-card-link{
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+/*---------- Blog posts ----------*/
+.blog-post-title{
+  color: black;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.blog-post-author{
+  color: lightgray;
+  font-style: italic;
+  margin-top: 0;
+}
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.blog-post-img{
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+/*-------------- Anton page --------------*/
+.anton-intro-description{
+  text-align: center;
+  max-width: 600px;
+}
+.how-anton-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.anton-pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anton-pricing-card{
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(50,50,93,.25);
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.anton-pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.anton-price-point{
+  color: #329ea8;
+  font-size: 80px;
+  margin: 0;
+  margin-top: 20px;
+}
+.per-article{
+  margin-top: -20px;
+  margin-bottom: 0;
+  color: lightgray;
+}
+.pricing-list{
+  line-height: 2;
+  border-top: solid 2px lightgray;
+  margin-top: 10px;
+  padding-top: 20px;
+  margin: 10px;
+}
+@media screen and (min-width: 800px) {
+  .how-anton-works{
+    flex-direction: row-reverse;
+  }
+  .anton-steps{
+    padding-right: 50px;
+  }
+  .anton-pricing{
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
