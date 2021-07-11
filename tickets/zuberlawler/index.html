@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Tickets</h1>
+  </body>
+</html>
+<script>
+
+var request = require("request");
+
+var options = {
+  method: 'GET',
+  url: 'https://api.hubapi.com/crm/v3/objects/tickets',
+  qs: {limit: '10', archived: 'false', hapikey: '5730fa56-9726-4193-8526-3ce5e50f84f2'},
+  headers: {accept: 'application/json'}
+};
+
+request(options, function (error, response, body) {
+  if (error) throw new Error(error);
+
+  console.log(body);
+});
+
+</script>
